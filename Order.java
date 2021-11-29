@@ -13,4 +13,27 @@ public class Order {
     ArrayList<Item> items;
 
     //  //// METHODS ///////////////////////////////////////////////
+
+     //  **** CONSTRUCTORS ******************************************
+    
+    public Order() {
+        this.name ="John";
+        this.total = 0;
+        this.ready = false;
+        this.items = null;
+    }
+
+    public Order(String name) {
+        this.name = name;
+        this.total = 0;
+        this.ready = false;
+        this.items = null;
+    }
+
+
+   //  **** SET METHODS *******************************************
+
+    
+
+   //  **** GET METHODS *******************************************
 }
