@@ -42,4 +42,8 @@ public class Item {
     public double getPrice() {
         return this.price;
     }
+
+    public String getItem() {
+        return String.format("Item: %s | price: S%.2f", this.name, this.price);
+    }
 }
