@@ -59,10 +59,21 @@ public class OrderTest {
         order4.addItem(item2);
         System.out.println(order4.getOrder() + "\n");
 
-        // System.out.printf("Name: %s\n", order1.name);
-        // System.out.printf("Total: %s\n", order1.total);
-        // System.out.printf("Ready: %s\n", order1.ready);
+        System.out.println("*****************************************************");
+        System.out.println("Cindhuri's order is now ready\n");
+        order1.setReady(true);
+        System.out.println(order1.getOrder() + "\n");
+
+        System.out.println("*****************************************************");
+        System.out.println("Sam orders two more lattes\n");
+        order4.addItem(item2);
+        order4.addItem(item2);
+        System.out.println(order4.getOrder() + "\n");
+
+        System.out.println("*****************************************************");
+        System.out.println("Jimmy's order is now ready\n");
+        order2.setReady(true);
+        System.out.println(order2.getOrder() + "\n");
     }
-    
 }
 
